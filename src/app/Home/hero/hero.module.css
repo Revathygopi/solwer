@@ -1,0 +1,56 @@
+.heading {
+    width: 87%;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.digitalplatform {
+    width: 87%;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.challenges {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: var(--Grays-White, rgba(255, 255, 255, 1));
+}
+
+.solwersolution {
+    width: 95%;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    opacity: 80%;
+    color: var(--Grays-White, rgba(255, 255, 255, 1));
+}
+
+@media only screen and (min-width:768px) {
+    .heading {
+        width: 60%;
+        font-size: 56px;
+        line-height: 67px;
+    }
+
+    .digitalplatform {
+        width: 75%;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .challenges {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .solwersolution {
+        width: 75%;
+        font-size: 16px;
+        line-height: 29px;
+    }
+}

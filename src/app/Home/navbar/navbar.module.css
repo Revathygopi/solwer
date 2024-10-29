@@ -1,0 +1,100 @@
+.solwerlogo {
+    padding: 10px 0px 20px 70px;
+}
+
+.navlist {
+    justify-content: space-around;
+    list-style-type: none;
+    border-radius: 28px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(219, 229, 248, 1);
+}
+
+.navitem {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home,
+.video,
+.product,
+.mission,
+.solution {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 26px;
+    color: rgba(61, 61, 61, 1);
+
+}
+
+.navclose,
+.navtoggle {
+    display: none;
+}
+
+@media only screen and (max-width:768px) {
+    .solwerlogo {
+        padding: 10px 0px 0px 20px;
+    }
+
+    .navmenu {
+        height: 500px;
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        background: rgba(255, 255, 255, 1);
+        padding-top: 50px;
+    }
+
+    .home,
+    .video,
+    .product,
+    .mission,
+    .solution {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 25px;
+        color: rgba(0, 0, 0, 1);
+
+    }
+
+    .navlist {
+        flex-direction: column;
+        border-style: none;
+    }
+
+    .navitem {
+        display: block;
+    }
+
+    .navtoggle {
+        font-size: 2rem;
+        color: white;
+        display: flex;
+        cursor: pointer;
+        justify-content: flex-end;
+
+    }
+
+    .navclose {
+        font-size: 1rem;
+        display: flex;
+        cursor: pointer;
+        justify-content: flex-end;
+
+    }
+
+    .line {
+        width: 205px;
+        border: 1px 0px 0px 0px;
+        border: 1px solid rgba(0, 0, 0, 0.06);
+    }
+
+    .showMenu {
+        display: flex;
+    }
+}

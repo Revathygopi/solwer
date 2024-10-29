@@ -1,0 +1,156 @@
+.container {
+    height: 1400px;
+    background: rgba(244, 247, 250, 1);
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgba(22, 28, 45, 1);
+}
+
+.text {
+    opacity: 70%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.roundimage {
+    position: relative;
+}
+
+.roundimage p {
+    position: absolute;
+    top: 6px;
+    left: 18px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 32px;
+    color: rgba(0, 161, 43, 1);
+}
+
+.integratingmanafacturing,
+.economy {
+    width: 80%;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    color: rgba(22, 28, 45, 1);
+}
+
+.manufacturing,
+.mobility,
+.transport,
+.vehicle {
+    width: 99%;
+    opacity: 70%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.manufacturing span,
+.mobility span,
+.transport span,
+.vehicle span {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.quantifiablegrowth {
+    width: 80%;
+    margin: auto;
+    border-radius: 14px;
+    background: linear-gradient(91.29deg, rgba(255, 255, 255, 0.2) -1.55%, rgba(19, 143, 181, 0.2) 19.35%, rgba(21, 188, 151, 0.2) 52.72%, rgba(97, 202, 102, 0.2) 87.4%, rgba(255, 255, 255, 0.2) 109.68%);
+
+
+}
+
+.growth {
+    width: 90%;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.integrated,
+.circular {
+    width: 90%;
+    opacity: 70%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.integrated span,
+.circular span {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    ;
+}
+
+@media only screen and (min-width:768px) {
+    .container {
+        height: 1250px;
+    }
+
+    .heading {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .text {
+        font-size: 18px;
+        line-height: 32px;
+        margin-top: 10px;
+    }
+
+    .integratingmanafacturing,
+    .economy {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .manufacturing,
+    .mobility,
+    .transport,
+    .vehicle,
+    .manufacturing span,
+    .mobility span,
+    .transport span,
+    .vehicle span {
+        font-size: 16px;
+        line-height: 29px;
+    }
+
+    .quantifiablegrowth {
+        width: 85%;
+    }
+
+    .growth {
+        width: 90%;
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .integrated,
+    .circular,
+    .integrated span,
+    .circular span {
+        font-size: 16px;
+        line-height: 29px;
+    }
+
+}
+
+@media only screen and (min-width:800px) {
+    .container {
+        height: 1000px;
+    }
+}

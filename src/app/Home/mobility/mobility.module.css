@@ -1,0 +1,77 @@
+.container {
+    background: rgba(244, 247, 250, 1);
+    height: 1000px;
+
+}
+
+.heading {
+    width: 80%;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    color: rgba(22, 28, 45, 1);
+}
+
+.app {
+    opacity: 70%;
+    width: 85%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.marketbutton {
+    width: 255px;
+    padding: 12px 32px 12px 32px;
+    border-style: none;
+    border-radius: 8px;
+    background: linear-gradient(94.23deg, #0098BF 0%, #15BB98 68.74%, #68D585 137.48%);
+}
+
+.marketplace {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.vehicle p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+@media only screen and (min-width:800px) {
+    .heading {
+        font-size: 36px;
+        line-height: 48px;
+        width: 80%;
+    }
+
+    .app {
+        width: 55%;
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .marketplace {
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+    .vehicle {
+        width: 235px;
+        height: 45px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 8px 0px 8px 0px;
+        background: rgba(255, 255, 255, 1);
+        margin: auto;
+
+    }
+
+    .vehicle p {
+        font-size: 16px;
+        line-height: 29px;
+    }
+}

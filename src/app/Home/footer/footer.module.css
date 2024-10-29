@@ -1,0 +1,66 @@
+.testinomial {
+    background: linear-gradient(180deg, #3771C8 0%, #68D5A1 100%);
+}
+
+.heading {
+    width: 96%;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+}
+.leftquote{
+    margin-right:70%;
+   
+}
+.rightquote{
+    margin-left:70%;
+    margin-bottom:10%;
+}
+.solwermission {
+    width: 80%;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footerlogo {
+    width: 80px;
+    height: 28px;
+}
+
+.line {
+    border: 1px solid rgba(0, 0, 0, 0.06)
+}
+
+.contact {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26px;
+    justify-content: center;
+}
+
+@media only screen and (min-width:800px) {
+    .heading {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .solwermission {
+        width: 70%;
+        font-size: 28px;
+        line-height: 44px;
+    }
+
+    .contact {
+        font-size: 16px;
+        line-height: 26px;
+        font-weight:700;
+        justify-content: flex-end;
+    }
+    .socilamedia {
+        order: 2; 
+    }  
+    
+}

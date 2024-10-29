@@ -1,0 +1,87 @@
+.heading {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgba(22, 28, 45, 1);
+}
+
+.solwertransform {
+    width: 92%;
+    opacity: 70%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(22, 28, 45, 1);
+}
+
+.bussinessimpact {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    color: rgba(22, 28, 45, 1);
+}
+
+.solwerdelivers {
+    width: 99%;
+    opacity: 70%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.digitallist {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 32px;
+    color: rgba(22, 28, 45, 1);
+}
+
+.downloadbutton {
+    padding: 16px 40px 16px 40px;
+    border-radius: 8px;
+    background: linear-gradient(94.23deg, #0098BF 0%, #15BB98 68.74%, #68D585 137.48%);
+    border-style: none;
+    margin: 0px;
+    align-items: flex-end;
+}
+
+.downloadbutton p {
+    margin: 0px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 17px;
+    color: rgba(255, 255, 255, 1);
+}
+
+@media only screen and (min-width:778px) {  
+    .heading {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .solwertransform {
+        width:80%;
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .bussinessimpact {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .solwerdelivers{
+        width:85%;
+    }
+    .digitalimage{
+        width:85%;
+    }
+    .digitallist {
+        font-size: 16px;
+        line-height: 32px;
+    }
+    .downloadbutton p {
+        font-size: 17px;
+        line-height: 21px;
+    }
+}

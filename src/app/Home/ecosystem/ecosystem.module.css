@@ -1,0 +1,46 @@
+.heading {
+    width: 90%;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    color: rgba(22, 28, 45, 1);
+}
+
+.solwerfacilitate,
+.solwervalue {
+    width: 75%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    opacity:70%;
+
+}
+
+.solwerfacilitate span,
+.solwervalue span {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+@media only screen and (max-width:768px) {
+    .ecosystemcontent {
+        align-items: center;
+        order:2;
+    }
+    .heading {
+        width: 90%;
+        font-size: 20px;
+        line-height: 24px;
+        color: rgba(22, 28, 45, 1);
+    }
+    
+
+    .solwerfacilitate, .solwerfacilitate span,
+    .solwervalue, .solwervalue span {
+        width: 90%;
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
