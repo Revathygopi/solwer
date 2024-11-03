@@ -19,20 +19,38 @@ export function Carousel() {
         dots: true,
         responsive: [
             {
-                breakpoint: 480,
-                settings: {
-                    arrows: false,
-                    centerMode: true,
-                    centerPadding: '60px',
-                    slidesToShow: 1
-                }
-            },
-            {
                 breakpoint: 320,
                 settings: {
                     arrows: false,
                     centerMode: true,
-                    centerPadding: '20px',
+                    centerPadding: '5px',
+                    slidesToShow: 1
+                }
+            },
+            {
+                breakpoint: 380,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '30px',
+                    slidesToShow: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '50px',
+                    slidesToShow: 1
+                }
+            },
+            {
+                breakpoint: 770,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '220px',
                     slidesToShow: 1
                 }
             },

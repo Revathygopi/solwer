@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { IoClose, IoMenu } from "react-icons/io5";
-import logo from '../../assets/images/logo.svg';
+import logo from '../../assets/images/logo.png';
 import Image from 'next/image';
 import styles from './navbar.module.css'
 
