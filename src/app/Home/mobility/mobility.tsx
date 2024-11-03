@@ -26,7 +26,7 @@ export default function Mobility() {
                 </div>
             </div>
             <div className='row'>
-                <div className=' d-lg-flex justify-content-center align-iems-center d-none d-lg-block  '>
+                <div className={`d-lg-flex justify-content-center align-iems-center d-none d-lg-block mt-5 ${styles.imagecontainer}`}>
                     <div className="col-3  d-flex flex-column px-3">
                         <Image
                             src={mobileimage1}
@@ -40,7 +40,7 @@ export default function Mobility() {
                         </div>
 
                     </div>
-                    <div className="col-3 d-flex flex-column px-3 pt-5">
+                    <div className={`col-3 d-flex flex-column px-3 ${styles.finance}`}>
                         <Image
                             src={mobileimage2}
                             alt="Mobileimage"

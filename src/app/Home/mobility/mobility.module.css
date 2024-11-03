@@ -1,6 +1,6 @@
 .container {
     background: rgba(244, 247, 250, 1);
-    height: 1000px;
+    height: 1050px;
 
 }
 
@@ -41,6 +41,13 @@
     font-weight: 400;
     line-height: 22px;
 }
+.imagecontainer{
+    width:70%;
+    margin:auto;
+}
+.finance{
+    padding-top:70px;
+}
 
 @media only screen and (min-width:800px) {
     .heading {
@@ -61,17 +68,14 @@
     }
 
     .vehicle {
-        width: 235px;
         height: 45px;
         border: 1px solid rgba(0, 0, 0, 0.1);
         padding: 8px 0px 8px 0px;
         background: rgba(255, 255, 255, 1);
-        margin: auto;
-
-    }
+   }
 
     .vehicle p {
-        font-size: 16px;
+        font-size: 12px;
         line-height: 29px;
     }
 }
